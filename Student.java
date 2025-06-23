@@ -20,4 +20,7 @@ public class Student{
     public String getName() { return name; }
     public int getAge() { return age; }
     public String getGrade() { return grade; }
+
+    @Override
+    public String toString(){ return "\nID: " + id + "\nName: " + name + "\nAge: " + age + "\nGrade: " + grade; }
 }
